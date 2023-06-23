@@ -1,0 +1,53 @@
+* /home/roshan/eSim-Workspace/riscv_32/riscv_32.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: Mon Jun 19 20:09:36 2023
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+U2  clk rst Net-_U1-Pad1_ Net-_U1-Pad2_ adc_bridge_2		
+v1  clk GND pulse		
+v2  rst GND pulse		
+U3  clk plot_v1		
+U4  rst plot_v1		
+U5  Net-_U1-Pad3_ Net-_U1-Pad4_ Net-_U1-Pad5_ Net-_U1-Pad6_ Net-_U1-Pad7_ Net-_U1-Pad8_ Net-_U1-Pad9_ Net-_U1-Pad10_ 1 2 3 4 5 6 7 8 dac_bridge_8		
+U6  Net-_U1-Pad11_ Net-_U1-Pad12_ Net-_U1-Pad13_ Net-_U1-Pad14_ Net-_U1-Pad15_ Net-_U1-Pad16_ Net-_U1-Pad17_ Net-_U1-Pad18_ 9 10 11 12 13 14 15 16 dac_bridge_8		
+U7  Net-_U1-Pad19_ Net-_U1-Pad20_ Net-_U1-Pad21_ Net-_U1-Pad22_ Net-_U1-Pad23_ Net-_U1-Pad24_ Net-_U1-Pad25_ Net-_U1-Pad26_ 17 18 19 20 21 22 23 24 dac_bridge_8		
+U8  Net-_U1-Pad27_ Net-_U1-Pad28_ Net-_U1-Pad29_ Net-_U1-Pad30_ Net-_U1-Pad31_ Net-_U1-Pad32_ Net-_U1-Pad33_ Net-_U1-Pad34_ 25 26 27 28 29 30 31 32 dac_bridge_8		
+U9  1 plot_v1		
+U10  2 plot_v1		
+U11  3 plot_v1		
+U12  4 plot_v1		
+U13  5 plot_v1		
+U14  6 plot_v1		
+U15  7 plot_v1		
+U16  8 plot_v1		
+U17  9 plot_v1		
+U18  10 plot_v1		
+U19  11 plot_v1		
+U20  12 plot_v1		
+U21  13 plot_v1		
+U22  14 plot_v1		
+U23  15 plot_v1		
+U24  16 plot_v1		
+U25  17 plot_v1		
+U26  18 plot_v1		
+U27  19 plot_v1		
+U28  20 plot_v1		
+U29  21 plot_v1		
+U30  22 plot_v1		
+U31  23 plot_v1		
+U32  24 plot_v1		
+U33  24 plot_v1		
+U34  25 plot_v1		
+U35  26 plot_v1		
+U36  27 plot_v1		
+U37  28 plot_v1		
+U38  29 plot_v1		
+U39  30 plot_v1		
+U40  31 plot_v1		
+U41  32 plot_v1		
+U1  Net-_U1-Pad1_ Net-_U1-Pad2_ Net-_U1-Pad3_ Net-_U1-Pad4_ Net-_U1-Pad5_ Net-_U1-Pad6_ Net-_U1-Pad7_ Net-_U1-Pad8_ Net-_U1-Pad9_ Net-_U1-Pad10_ Net-_U1-Pad11_ Net-_U1-Pad12_ Net-_U1-Pad13_ Net-_U1-Pad14_ Net-_U1-Pad15_ Net-_U1-Pad16_ Net-_U1-Pad17_ Net-_U1-Pad18_ Net-_U1-Pad19_ Net-_U1-Pad20_ Net-_U1-Pad21_ Net-_U1-Pad22_ Net-_U1-Pad23_ Net-_U1-Pad24_ Net-_U1-Pad25_ Net-_U1-Pad26_ Net-_U1-Pad27_ Net-_U1-Pad28_ Net-_U1-Pad29_ Net-_U1-Pad30_ Net-_U1-Pad31_ Net-_U1-Pad32_ Net-_U1-Pad33_ Net-_U1-Pad34_ single_cycle_top		
+
+.end
